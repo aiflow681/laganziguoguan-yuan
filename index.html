@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1,minimum-scale=1,viewport-fit=cover">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="msapplication-tap-highlight" content="no">
+<title>摸鱼小游戏 | HTML5拉杆子过关小游戏</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+  <div id="score"></div>
+  <canvas id="game" width="375" height="375"></canvas>
+  <div id="introduction">按住屏幕伸出一根棍子</div>
+  <div id="perfect">双倍积分</div>
+  <button id="restart">重新开始</button>
+  <!-- 透明保护层，防止长按复制 -->
+  <div id="protect-layer"></div>
+  <!-- 点击长按按钮 -->
+  <button id="hold-button">按住</button>
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
